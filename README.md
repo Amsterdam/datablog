@@ -27,6 +27,7 @@ Based on https://www.sylvaindurand.org/making-jekyll-multilingual/.
 - Test [Open Graph tags](http://ogp.me/)
 - Improve [`fonts.scss`](assets/css/fonts.scss)
 - Improve code syntax highlighting
+- Leaflet iframe should ignore mouse wheel events!
 
 ## Ideas
 
