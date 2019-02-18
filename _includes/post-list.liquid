@@ -1,0 +1,20 @@
+{% assign posts=site.posts | where:"lang", page.lang %}
+<ul class="list flex flex-wrap pa0">
+{% for post in posts %}
+  <li class="w-100 flex pb4">
+    <div class="w-50 flex-shrink-0">
+      <a href="{{ post.url }}">
+        <img src="{{ site.assets }}/images/posts/{{ post.ref }}/{{ post.ref }}-thumbnail.jpg" />
+      </a>
+    </div>
+    <div class="ml3">
+      <span class="gray">
+        {% include date.liquid date=post.date %}
+      </span>
+      <h2 class="mt2">
+        <a class="black no-underline" href="{{ post.url }}">{{ post.title }}</a>
+      </h2>
+    </div>
+  </li>
+{% endfor %}
+</ul>

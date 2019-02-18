@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  {% capture title %}
+  {% if page.title %}{{ page.title }} -{% else %}{% endif %} {{ site.t[page.lang].title }} - {{ site.t[page.lang].organization | strip_html }}
+  {% endcapture %}
+  <title>{{ title }}</title>
+  <meta property="og:title" content="{{ title }}"/>
+
+  <meta property="og:description" content="{{ site.t[page.lang].description }}">
+  <meta name="description" content="{{ site.t[page.lang].description }}"/>
+  <meta name="author" content="{{ site.data.authors[page.author].name }}">
+
+{% capture og_image_url %}{{ site.baseurl }}/images/posts/{{ page.ref }}/{{ page.ref }}-open-graph.jpg{% endcapture %}
+  <meta property="og:image" content="{{ og_image_url | absolute_url}}"/>
+  <meta property="og:url" content="{{ site.baseurl }}{% if page.url %}{{ page.url }}{% endif %}"/>
+
+  {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+  {% for post in posts %}
+    <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />
+  {% endfor %}
+  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+  {% for page in pages %}
+    <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />
+  {% endfor %}
+
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4/css/tachyons.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/datablog.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fonts.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syntax.css">
+  <link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.ico">
+</head>
+<body class="w-100 bg-white">
+  <header class="w-100 pa3 bg-white">
+    <div class="mw7 center w-100 flex">
+      {% include header.liquid %}
+    </div>
+  </header>
+
+  {% comment %} <nav class="w-100 pa3 ph5-ns bg-light-gray">
+    <div class="mw8 center w-100">
+      {% include top-nav.liquid %}
+    </div>
+  </nav> {% endcomment %}
+
+  <main class="w-100 pa3-ns bg-top contain"
+    style="background-image: url({{ site.assets }}/images/posts/{{ page.ref }}/{{ page.ref }}-wide.jpg);">
+    <img class="db dn-ns" src="{{ site.assets }}/images/posts/{{ page.ref }}/{{ page.ref }}-wide.jpg" />
+    <div class="bg-white mw7 center pa3 pa4-ns mt0 mt5-m mt6-l">
+      {{ content }}
+    </div>
+  </main>
+  <footer class="w-100 bg-gray white">
+    <div class="mw7 center w-100 flex flex-wrap pa3 pa4-ns ph0-l flex-column flex-row-ns">
+    {% include footer.liquid %}
+    </div>
+  </footer>
+</body>
+</html>

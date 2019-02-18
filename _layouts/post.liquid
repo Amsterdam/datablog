@@ -1,0 +1,43 @@
+---
+layout: wrapper
+---
+<article class="markdown-body w-100">
+  <h1 class="mt0">{{ page.title }}</h1>
+  {% include author-date.liquid %}
+  {{ content }}
+</article>
+<div class="mw7 mt6 center w-100 flex justify-between">
+  <div>
+  {% for post in site.posts %}
+    {% if post.lang == page.lang %}
+      {% if prev %}
+        <a class="no-underline black" href="{{ post.url }}">
+          <img class="pr1" src="{{ site.baseurl }}/assets/images/caret-left-black.svg">
+          {{ post.title }}
+        </a>
+      {% endif %}
+      {% assign prev = false %}
+      {% if post.id == page.id %}
+        {% assign prev = true %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+  </div>
+  <div>
+  {% for post in site.posts reversed %}
+    {% if post.lang == page.lang %}
+      {% if next %}
+        <a class="no-underline black" href="{{ post.url }}">
+          {{ post.title }}
+          <img class="pl1" src="{{ site.baseurl }}/assets/images/caret-right-black.svg">
+        </a>
+        {% break %}
+      {% endif %}
+      {% assign next = false %}
+      {% if post.id == page.id %}
+        {% assign next = true %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+  </div>
+</div>

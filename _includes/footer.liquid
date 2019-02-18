@@ -1,0 +1,26 @@
+<article class="mr4-ns">
+  <h3 class="mt0">{{ site.t[page.lang].posts }}</h3>
+  {% assign posts=site.posts | where:"lang", page.lang %}
+  <ul class="white pl3">
+  {% for post in posts | limit: 5 %}
+    <li>
+      <a class="white no-underline" href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+  </ul>
+</article>
+<article class="mr4-ns">
+  <h3 class="mt0">{{ site.t[page.lang].language }}</h3>
+  {% include languages.liquid class="white pl3" link_class="white" %}
+</article>
+<article class="mr4-ns">
+  <h3 class="mt0">Contact</h3>
+  <ul class="white pl3">
+    <li>
+      <a class="white no-underline" href="http://data.amsterdam.nl">data.amsterdam.nl</a>
+    </li>
+    <li>
+      <a class="white no-underline" href="http://github.com/amsterdam">github.com/amsterdam</a>
+    </li>
+  </ul>
+</article>

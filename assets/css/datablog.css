@@ -1,0 +1,71 @@
+---
+---
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Avenir";
+  font-size: 18px;
+}
+
+header .languages li.en:lang(en),
+header .languages li.nl:lang(nl) {
+  display: none;
+}
+
+ol.black,
+ul.black {
+  list-style-image: url("{{ site.baseurl }}/assets/images/caret-right-black.svg");
+}
+
+ol.white,
+ul.white {
+  list-style-image: url("{{ site.baseurl }}/assets/images/caret-right-white.svg");
+}
+
+.red {
+  color: #ec0000;
+}
+
+.markdown-body a {
+  color: #004699;
+}
+
+.markdown-body a:visited {
+  color: #a00078;
+}
+
+.markdown-body p,
+.markdown-body ul,
+.markdown-body ol {
+  line-height: 1.5;
+}
+
+.full-width {
+  width: 100vw;
+  max-width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+main .highlighter-rouge {
+  overflow: scroll;
+  border-radius: 3px;
+  font-size: 85%;
+  background-color: #f6f8fa;
+}
+
+main .highlighter-rouge > .highlight {
+  padding: 1rem;
+  background-color: #f6f8fa;
+}
+
+main .highlighter-rouge > .highlight > .highlight {
+  margin: 0;
+  background-color: #f6f8fa;
+}

@@ -1,0 +1,19 @@
+<ul class="{{ include.class }}">
+  {% assign posts=site.posts | where:"ref", page.ref | sort:"lang" %}
+  {% for post in posts %}
+    <li class="{{ post.lang }}">
+      <a href="{{ post.url }}" class="no-underline black {{ page.lang }} {{ include.link_class }}">
+        {{ site.t[post.lang][post.lang] }}
+      </a>
+    </li>
+  {% endfor %}
+
+  {% assign pages=site.pages | where:"ref", page.ref | sort:"lang" %}
+  {% for page in pages %}
+    <li class="{{ page.lang }}">
+      <a href="{{ page.url }}" class="no-underline black {{ page.lang }} {{ include.link_class }}">
+        {{ site.t[page.lang][page.lang] }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>

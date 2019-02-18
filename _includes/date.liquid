@@ -1,0 +1,9 @@
+{% if site.t[page.lang].date_format %}
+  {{ include.date | date: site.t[page.lang].date_format }}
+{% else %}
+  {% assign day = include.date | date: "%-d" %}
+  {% assign month = include.date | date: "%-m" | minus: 1 %}
+  {% assign year = include.date | date: "%Y" %}
+  {{ day }} {{ site.t[page.lang].months[month] }} {{ year }}
+{% endif %}
+

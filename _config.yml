@@ -1,0 +1,67 @@
+defaults:
+  - scope:
+      path: _posts
+    values:
+      layout: post
+
+permalink: pretty
+
+baseurl: https://amsterdam.github.io/datablog
+assets: https://amsterdam.github.io/data-blog-assets
+
+exclude: [LICENSE]
+
+# Translation of website elements:
+t:
+  nl:
+    title: Datablog
+    organization: Gemeente<br/> Amsterdam
+    description:
+
+    en: Engels
+    nl: Nederlands
+    language: Taal
+
+    previous: Vorige blogpost
+    next: Volgende blogpost
+    posts: Blogposts
+
+    published_on: Gepubliceerd op
+    by: door
+    months:
+      - januari
+      - februari
+      - maart
+      - april
+      - mei
+      - juni
+      - juli
+      - augustus
+      - september
+      - oktober
+      - november
+      - december
+
+    home:
+      name: Overzicht
+      url: "/"
+  en:
+    title: Data Blog
+    organization: City of <br />Amsterdam
+    description:
+
+    en: English
+    nl: Dutch
+    language: Language
+
+    previous: Previous post
+    next: Next post
+    posts: Blog posts
+
+    published_on: Published on
+    by: by
+    date_format: "%B %d, %Y"
+
+    home:
+      name: Home
+      url: "/en/"

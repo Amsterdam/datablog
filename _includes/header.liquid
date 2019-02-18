@@ -1,0 +1,17 @@
+<div class="w-100 flex justify-between">
+  <div class="flex items-start relative left--1-l">
+    <a href="{{ site.baseurl }}{{ site.t[page.lang].home.url }}"
+      class="relative no-underline flex items-start mr4">
+      <img class="h3" src="{{ site.baseurl }}/assets/images/andreas.svg" alt="{{ site.t[page.lang].organization }}" />
+      <span class="b red f7 ml1 lh-solid">{{ site.t[page.lang].organization }}</span>
+    </a>
+    <h1 class="dib f2 ma0 lh-solid">
+      <a href="{{ site.baseurl }}{{ site.t[page.lang].home.url }}" class="no-underline black">
+        {{ site.t[page.lang].title }}
+      </a>
+    </h1>
+  </div>
+  <div class="fw5 links dn db-ns languages">
+    {% include languages.liquid class="black ma0 pa0" %}
+  </div>
+</div>
