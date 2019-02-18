@@ -11,7 +11,7 @@ layout: wrapper
   {% for post in site.posts %}
     {% if post.lang == page.lang %}
       {% if prev %}
-        <a class="no-underline black" href="{{ post.url }}">
+        <a class="no-underline black" href="{{ site.baseurl }}{{ post.url }}">
           <img class="pr1" src="{{ site.baseurl }}/assets/images/caret-left-black.svg">
           {{ post.title }}
         </a>
@@ -27,7 +27,7 @@ layout: wrapper
   {% for post in site.posts reversed %}
     {% if post.lang == page.lang %}
       {% if next %}
-        <a class="no-underline black" href="{{ post.url }}">
+        <a class="no-underline black" href="{{ site.baseurl }}{{ post.url }}">
           {{ post.title }}
           <img class="pl1" src="{{ site.baseurl }}/assets/images/caret-right-black.svg">
         </a>
