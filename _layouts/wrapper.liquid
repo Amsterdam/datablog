@@ -4,9 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  {% capture title %}
-  {% if page.title %}{{ page.title }} -{% else %}{% endif %} {{ site.t[page.lang].title }} - {{ site.t[page.lang].organization | strip_html }}
-  {% endcapture %}
+  {% capture title %}{% if page.title %}{{ page.title }} -{% else %}{% endif %} {{ site.t[page.lang].title }} - {{ site.t[page.lang].organization | strip_html }}{% endcapture %}
   <title>{{ title }}</title>
   <meta property="og:title" content="{{ title }}"/>
 
@@ -33,6 +31,7 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fonts.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syntax.css">
   <link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.ico">
+  {% include matomo.liquid %}
 </head>
 <body class="w-100 bg-white">
   <header class="w-100 pa3 bg-white">
