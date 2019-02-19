@@ -1,5 +1,5 @@
-<div class="fw1 gray">
-  {{ site.t[page.lang].published_on }} <strong>{% include date.liquid date=page.date %}</strong>
+<div class="fw1 mid-gray i">
+  {{ site.t[page.lang].published_on }} {% include date.liquid date=page.date %}
   {{ site.t[page.lang].by }}
   <a href="{{ site.data.authors[page.author].url }}">{{ site.data.authors[page.author].name }}</a>.
 </div>
