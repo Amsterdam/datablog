@@ -6,6 +6,7 @@ defaults:
 
 permalink: pretty
 
+url: https://amsterdam.github.io
 baseurl: /datablog
 assets: /data-blog-assets
 
