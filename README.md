@@ -23,6 +23,7 @@ Based on https://www.sylvaindurand.org/making-jekyll-multilingual/.
 
 # TODO
 
+- Improve [footer links](_includes/footer.liquid)
 - Include modified [Tachyons](https://github.com/tachyons-css/tachyons/)
 - Test [Open Graph tags](http://ogp.me/)
 - Improve [`fonts.scss`](assets/css/fonts.scss)
