@@ -8,7 +8,7 @@ permalink: pretty
 
 url: https://amsterdam.github.io
 baseurl: /datablog
-assets: /data-blog-assets
+assets: https://amsterdam.github.io/data-blog-assets
 
 exclude: [LICENSE]
 

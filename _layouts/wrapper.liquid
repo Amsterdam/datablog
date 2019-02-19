@@ -15,9 +15,9 @@
   <meta name="author" content="{{ site.data.authors[page.author].name }}">
 
 {% capture og_image_url %}{{ site.assets }}/images/posts/{{ page.ref }}/{{ page.ref }}-open-graph.jpg{% endcapture %}
-  <meta property="og:image" content="{{ og_image_url | absolute_url}}"/>
-{% capture og_url %}{{ site.baseurl }}{{ page.url }}{% endcapture %}
-  <meta property="og:url" content="{{ og_url | absolute_url}}"/>
+  <meta property="og:image" content="{{ og_image_url | absolute_url }}"/>
+{% capture og_url %}{{ page.url }}{% endcapture %}
+  <meta property="og:url" content="{{ og_url | absolute_url }}"/>
 
   {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
   {% for post in posts %}
