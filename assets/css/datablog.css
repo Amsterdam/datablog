@@ -29,6 +29,10 @@ ul.white {
   color: #ec0000;
 }
 
+.markdown-body p:first-of-type {
+  font-weight: bold;
+}
+
 .markdown-body a {
   color: #004699;
 }

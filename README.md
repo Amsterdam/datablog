@@ -24,16 +24,20 @@ Based on https://www.sylvaindurand.org/making-jekyll-multilingual/.
 # TODO
 
 - Improve [footer links](_includes/footer.liquid)
+- Add [contact form](https://medium.com/datafire-io/simple-backends-four-ways-to-implement-a-contact-us-form-on-a-static-website-10fc430984a4)
 - Include modified [Tachyons](https://github.com/tachyons-css/tachyons/)
 - Test [Open Graph tags](http://ogp.me/)
 - Improve [`fonts.scss`](assets/css/fonts.scss)
 - Improve code syntax highlighting
 - Leaflet iframe should ignore mouse wheel events!
+- [Responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images#How_do_you_create_responsive_images)
+
 
 ## Ideas
 
 - Lightbox for images
-- More/better/responsive image sizes
+- Scripts to generate different image sizes (or use our IIIF server?)
+- Anchor links for headings
 - Button to copy code examples to clipboard
 - Button to open data in geojson.io
 - `%include` for Leaflet maps

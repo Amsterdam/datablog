@@ -9,6 +9,7 @@ permalink: pretty
 url: https://amsterdam.github.io
 baseurl: /datablog
 assets: https://amsterdam.github.io/data-blog-assets
+production: true
 
 exclude: [LICENSE]
 
@@ -17,7 +18,7 @@ t:
   nl:
     title: Datablog
     organization: Gemeente<br/> Amsterdam
-    description:
+    description: Datablog
 
     en: Engels
     nl: Nederlands
@@ -49,7 +50,7 @@ t:
   en:
     title: Data Blog
     organization: City of <br />Amsterdam
-    description:
+    description: Data blog
 
     en: English
     nl: Dutch
