@@ -61,7 +61,6 @@ main .highlighter-rouge {
   overflow: scroll;
   border-radius: 3px;
   font-size: 85%;
-  background-color: #f6f8fa;
 }
 
 main .highlighter-rouge > .highlight {
@@ -71,5 +70,26 @@ main .highlighter-rouge > .highlight {
 
 main .highlighter-rouge > .highlight > .highlight {
   margin: 0;
+
+}
+
+pre.highlight,
+pre code {
   background-color: #f6f8fa;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0 0.5rem;
+  border-collapse: separate;
+}
+
+table th {
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 1px;
+}
+
+table tr {
+  vertical-align: top;
 }

@@ -56,12 +56,14 @@ De gegeorefereerde kaarten zijn als _tiles_ beschikbaar volgens de [_Tile Map Se
 
 De volgende kaartlagen zijn beschikbaar:
 
-| Jaar | Schaal | Tile-URL                                                                  |
-|:-----|:-------|:--------------------------------------------------------------------------|
-| 1909 | 1:1000 | `https://{s}.data.amsterdam.nl/publieke-werken-1909/{z}/{x}/{y}.png`      |
-| 1943 | 1:1000 | `https://{s}.data.amsterdam.nl/publieke-werken-1943/{z}/{x}/{y}.png`      |
-| 1943 | 1:2500 | `https://{s}.data.amsterdam.nl/publieke-werken-1943-2500/{z}/{x}/{y}.png` |
-| 1985 | 1:1000 | `https://{s}.data.amsterdam.nl/publieke-werken-1985/{z}/{x}/{y}.png`      |
+| Jaar | Schaal | ID                          |
+|:-----|:-------|:----------------------------|
+| 1909 | 1:1000 | `publieke-werken-1909`      |
+| 1943 | 1:1000 | `publieke-werken-1943`      |
+| 1943 | 1:2500 | `publieke-werken-1943-2500` |
+| 1985 | 1:1000 | `publieke-werken-1985`      |
+
+Van een kaartlaag-ID kun je op de volgende manier een tile-URL maken: `https://{s}.data.amsterdam.nl/publieke-werken-1909/{z}/{x}/{y}.png`. Deze URL’s zijn niet direct in de browser te openen (ze bevatten _template strings_ zoals bijvoorbeeld `{x}`), maar geo-software kan er mee overweg!
 
 ### QGIS
 
@@ -94,9 +96,9 @@ map.setView([52.4158, 4.9768], 10)
 
 [Op GitHub](https://github.com/Amsterdam/explore-historical-maps) staan een aantal voorbeeldprojecten waarin de Publieke Werken-kaarten met Leaflet worden getoond.
 
-<!--
 ## Schaal, kleur, jaargangen, projecties & bladnummers
 
+<!--
 - 1:1000-kaarten, elk adres en gebouw, huisnummers, stoepen
 - 1:2500 bouwblokken, soms in kleur
 - 1:5000
@@ -107,3 +109,8 @@ map.setView([52.4158, 4.9768], 10)
 
 - link naar Observable
 -->
+
+{% include full-width-start.liquid %}
+{% include iframe.liquid src="https://amsterdam.github.io/explore-historical-maps/2500.html#13/52.3628/4.8832" class="vh-75" %}
+{% include full-width-end.liquid %}
+
