@@ -42,9 +42,11 @@ Binnenkort zal ik nog een aantal jaargangen van de Dienst der Publieke Werken-ka
 
 ## Reis door de tijd!
 
-Door kaarten uit verschillende jaren over elkaar heen te leggen en te vergelijken reis je via de historische kaartlagen door de tijd. Hoe was ’t om met de trein aan te komen op Station Weesperpoort? Hoe was de wandeling de stad uit, via Dorp Sloterdijk, over de Spaarndammerdijk? Op de kaart hieronder kun je de kaarten uit verschillende jaargangen vergelijken.
+Door kaarten uit verschillende jaren over elkaar heen te leggen en te vergelijken reis je via de historische kaartlagen door de tijd. Hoe was ’t om met de trein aan te komen op Station Weesperpoort? Wat zag je als je, via Dorp Sloterdijk, over de Spaarndammerdijk de stad uit liep?
 
 Maar de kaarten zijn van groter belang: bijvoorbeeld bij bouwwerkzaamheden en archeologische opgravingen zijn historische kaarten erg belangrijk, en ook worden de kaarten gebruikt om databases van historische straatnamen en huisnummers samen te stellen.
+
+Op de kaart hieronder kun je kaarten uit verschillende jaargangen vergelijken, en zien hoe Amsterdam veranderde tussen 1909 en 1985.
 
 {% include full-width-start.liquid %}
 {% include iframe.liquid src="https://amsterdam.github.io/explore-historical-maps/#13/52.3717/4.9344" class="vh-100" %}
@@ -63,7 +65,7 @@ De volgende kaartlagen zijn beschikbaar:
 | 1943 | 1:2500 | `publieke-werken-1943-2500` |
 | 1985 | 1:1000 | `publieke-werken-1985`      |
 
-Van een kaartlaag-ID kun je op de volgende manier een tile-URL maken: `https://{s}.data.amsterdam.nl/publieke-werken-1909/{z}/{x}/{y}.png`. Deze URL’s zijn niet direct in de browser te openen (ze bevatten _template strings_ zoals bijvoorbeeld `{x}`), maar geo-software kan er mee overweg!
+Van een kaartlaag-ID kun je op de volgende manier een tile-URL maken: `https://{s}.data.amsterdam.nl/publieke-werken-1909/{z}/{x}/{y}.png`. Deze URL’s zijn niet direct in de browser te openen (ze bevatten _template strings_ zoals bijvoorbeeld `{x}`), maar QGIS en Leaflet kunnen ermee overweg! Op [GitHub](http://github.com/Amsterdam/historical-maps) staan alle tile-URL’s handig op een rijtje.
 
 ### QGIS
 
@@ -97,6 +99,16 @@ map.setView([52.4158, 4.9768], 10)
 [Op GitHub](https://github.com/Amsterdam/explore-historical-maps) staan een aantal voorbeeldprojecten waarin de Publieke Werken-kaarten met Leaflet worden getoond.
 
 ## Schaal, kleur, jaargangen, projecties & bladnummers
+
+<!--
+
+{% include figure.liquid
+  caption="Bladwijzer van 1:1000 kaarten uit 1909"
+  alt="Bladwijzer"
+  src="bladwijzer-1909.jpg" %} -->
+
+
+
 
 <!--
 - 1:1000-kaarten, elk adres en gebouw, huisnummers, stoepen
