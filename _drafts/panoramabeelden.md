@@ -5,18 +5,33 @@ ref: panorama
 author: bert
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis porttitor urna, eget gravida dui. Fusce viverra nulla nulla, ut fringilla diam euismod id. Cras efficitur accumsan luctus. Proin porttitor purus at felis scelerisque faucibus. Fusce molestie sapien et nulla placerat, vel commodo erat scelerisque. Vivamus et metus sit amet sem ultrices vehicula id in mi. Sed ante ligula, consequat eget leo eget, vulputate hendrerit justo. Curabitur et sapien eu neque efficitur hendrerit a ut odio. In suscipit velit sit amet commodo tincidunt.
+Via het dataportaal is de hele stad te bekijken, 360° Panoramafoto’s van Amsterdam, open data. In deze blogpost laten we zien hoe je deze afbeeldingen kunt gebruiken! En, leuker nog, wat je ermee kan maken!
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at mattis lorem, eget accumsan est. Ut porta urna non augue scelerisque, et interdum orci semper. In hac habitasse platea dictumst. Nunc a neque tellus. Aenean nec luctus tellus. Mauris non felis nec tortor facilisis gravida id efficitur mi. Aliquam pharetra quam orci, et eleifend urna convallis et. Vestibulum justo lectus, molestie lacinia lorem a, molestie ultricies metus. Phasellus sit amet enim in urna placerat porta sit amet ac est. Praesent ornare, enim efficitur suscipit porta, odio erat elementum purus, nec viverra mi turpis cursus mauris. Morbi ac iaculis elit, eu porttitor enim. Aliquam elementum condimentum maximus. Sed posuere nisi quis elit sodales finibus. Quisque euismod aliquet velit, ac dapibus neque rhoncus id. Vestibulum commodo, tellus nec imperdiet accumsan, eros magna lobortis ex, ut hendrerit dolor enim id arcu.
+Geschiedenis: ambtenaren moeten kunnen zien hoe de stad er uit ziet. Werkzaamheden, WOZ, gevaarlijke kruispunten, dit zijn een paar voorbeelden.
 
-Quisque id tincidunt massa. Pellentesque eleifend erat non nunc viverra, eu ornare tortor iaculis. Cras elementum dui sit amet massa auctor finibus. Aenean eu felis ex. Maecenas egestas est non ipsum mattis eleifend. Fusce fringilla lacus in leo fringilla euismod. Maecenas nec laoreet velit. Ut non tincidunt nulla, sit amet laoreet orci. Donec commodo, dui sit amet scelerisque laoreet, nisi urna venenatis diam, non pretium turpis tortor non massa. Morbi rhoncus finibus magna non imperdiet. In vestibulum auctor placerat. Vestibulum aliquet justo a orci ornare porta. Phasellus ut tristique odio, in vestibulum turpis.
+Google Street View: autootje komt niet overal, niet in parken, in stegen, op de grachten, wijken in aanbouw, en bovendien bepaalt Google zélf wanneer ze ergens nieuwe foto's maken. In het verleden gebruikte de gemeente de diensten van https://www.cyclomedia.com/, maar de afbeeldingen blijven eigendom van dit bedrijf. tot dat besloten werd dat het zelf beter en goedkoper kan, bovendien afbeeldingen open aanbieden. (Ook leuk voorbeeld (ook om belasting-waarde te bepalen): http://80s.nyc/.)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at mattis lorem, eget accumsan est. Ut porta urna non augue scelerisque, et interdum orci semper. In hac habitasse platea dictumst. Nunc a neque tellus. Aenean nec luctus tellus. Mauris non felis nec tortor facilisis gravida id efficitur mi. Aliquam pharetra quam orci, et eleifend urna convallis et. Vestibulum justo lectus, molestie lacinia lorem a, molestie ultricies metus. Phasellus sit amet enim in urna placerat porta sit amet ac est. Praesent ornare, enim efficitur suscipit porta, odio erat elementum purus, nec viverra mi turpis cursus mauris. Morbi ac iaculis elit, eu porttitor enim. Aliquam elementum condimentum maximus. Sed posuere nisi quis elit sodales finibus. Quisque euismod aliquet velit, ac dapibus neque rhoncus id. Vestibulum commodo, tellus nec imperdiet accumsan, eros magna lobortis ex, ut hendrerit dolor enim id arcu.
+Afgelopen jaren: eigen auto met panoramacamera, rijd elk jaar overal, soms meerdere keren voor nieuwe wijken en bv. WOZ, zoveel km, zoveel foto's, straten. Ook gemeente Weesp, Almere en Amstelveen.
 
-{% include full-width-start.liquid %}
-{% include figure.liquid caption="Panoramaritten in de hele stad" src="sequences.jpg" class="full-width" %}
-{% include full-width-end.liquid %}
+Dataportaal: voorbeeldlinks! Screenshot! Paar gekke plekken, links of plaatjes. De foto's kunnen door iedereen worden gebruikt, en de afbeeldingen kunnen worden gezocht en benaderd via een REST API!
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at mattis lorem, eget accumsan est. Ut porta urna non augue scelerisque, et interdum orci semper. In hac habitasse platea dictumst. Nunc a neque tellus. Aenean nec luctus tellus. Mauris non felis nec tortor facilisis gravida id efficitur mi. Aliquam pharetra quam orci, et eleifend urna convallis et. Vestibulum justo lectus, molestie lacinia lorem a, molestie ultricies metus. Phasellus sit amet enim in urna placerat porta sit amet ac est. Praesent ornare, enim efficitur suscipit porta, odio erat elementum purus, nec viverra mi turpis cursus mauris. Morbi ac iaculis elit, eu porttitor enim. Aliquam elementum condimentum maximus. Sed posuere nisi quis elit sodales finibus. Quisque euismod aliquet velit, ac dapibus neque rhoncus id. Vestibulum commodo, tellus nec imperdiet accumsan, eros magna lobortis ex, ut hendrerit dolor enim id arcu.
+Wat doen we nu met deze foto's? Ambtenaren, in dataportaal bij elk adres en gebouw, andere gemeentetoepassingen. Maar ook: experimenten met beeldherkenning, kunnen we nummberbordeen herkennen, kwaliteit van strepen op de weg, andere objecten in de openbare ruimte. Ook in Mapillary, bv.
 
-Quisque id tincidunt massa. Pellentesque eleifend erat non nunc viverra, eu ornare tortor iaculis. Cras elementum dui sit amet massa auctor finibus. Aenean eu felis ex. Maecenas egestas est non ipsum mattis eleifend. Fusce fringilla lacus in leo fringilla euismod. Maecenas nec laoreet velit. Ut non tincidunt nulla, sit amet laoreet orci. Donec commodo, dui sit amet scelerisque laoreet, nisi urna venenatis diam, non pretium turpis tortor non massa. Morbi rhoncus finibus magna non imperdiet. In vestibulum auctor placerat. Vestibulum aliquet justo a orci ornare porta. Phasellus ut tristique odio, in vestibulum turpis.
+Idee: geoguessr voor amsterdam met marzipano. Waar ben je in de stad, raad je plek aan hand van willekeurige panoramafoto. Applicatie bestaat uit 3 onderdelen: kaart, panoviewer, en stukje dat steeds de afstand uitrekent.
+Hoe kun je dit maken? Je kunt aan REST API niet vragen: geef me willekeurige foto. Wél: geef me dichstbijzijnde foto bij punt (tot max x meter).
+
+Laat zien hoe API werkt. Voorbeeld: JS fetch, grijp pano, welke data krijg je terug.
+hoe pak je willekeurige punt in amsterdam waar foto's zijn gemaakt?
+
+visualisatie van alle routes!
+
+Als we alle routes hebben, kunnen we daar polygoon van maken, en dan met algoritme (bv https://stackoverflow.com/questions/19481514/how-to-get-a-random-point-on-the-interior-of-an-irregular-polygon) een willekeurig punt in deze polygoon pakken.
+
+Hoe laten we in JS panoramabeeld zien: voorbeeld: marzipano!
+
+hoe laten we in JS met Leaflet Amsterdamse kaart zien. Voorbeeld: leaflet amsterdam tiles.
+
+Met Turf.js kunnen we uitrekenen wat de afstand is tussen de gekozen locatie en de panoramafoto.
+Voorbeeld Turf.
+
+Link naar applicatie! GitHub!

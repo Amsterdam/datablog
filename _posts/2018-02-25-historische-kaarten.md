@@ -5,7 +5,7 @@ ref: historical-maps
 author: bert
 ---
 
-Via het Dataportaal van de Gemeente Amsterdam kunnen historische kaarten van de Dienst der Publieke Werken worden bekeken. Het kaartmateriaal is ook beschikbaar voor eigen gebruik.
+100 jaar cartografische geschiedenis is vanaf nu te bekijken op [data.amsterdam.nl](https://data.amsterdam.nl). De kaarten, gemaakt tussen 1909 en 1985 door de gemeentelijke Dienst der Publieke Werken, laten de groei van Amsterdam in de twintigste eeuw prachtig zien.
 
 In 1909 was Amsterdam een stuk kleiner dan nu: ten westen van het Vondelpark, ten zuiden van de Pijp en ten oosten van de Dapperbuurt hield de stad op. Daarbuiten lagen polders met boerderijen. Ook het gebied aan de overkant van het IJ was grotendeels nog leeg, op een paar fabrieken en scheepswerven en de dijkdorpen Buiksloot en Nieuwendam na.
 
@@ -38,13 +38,13 @@ __Een selectie van de kaarten van de Dienst der Publieke Werken zijn vanaf nu be
   alt="Gemeente- en rijksmonumenten op het voormalige veemarktterrein"
   src="1909-in-city-data.jpg" %}
 
-Binnenkort zal ik nog een aantal jaargangen van de Dienst der Publieke Werken-kaarten publiceren, en beginnen met oudere buurtkaarten uit de negentiende eeuw.
+Binnenkort zal ik nog een aantal jaargangen van de Dienst der Publieke Werken-kaarten en oudere buurtkaarten uit de negentiende eeuw publiceren.
 
 ## Reis door de tijd!
 
 Door kaarten uit verschillende jaren over elkaar heen te leggen en te vergelijken reis je via de historische kaartlagen door de tijd. Hoe was ’t om met de trein aan te komen op Station Weesperpoort? Wat zag je als je, via Dorp Sloterdijk, over de Spaarndammerdijk de stad uit liep?
 
-Maar de kaarten zijn van groter belang: bijvoorbeeld bij bouwwerkzaamheden en archeologische opgravingen zijn historische kaarten erg belangrijk, en ook worden de kaarten gebruikt om databases van historische straatnamen en huisnummers samen te stellen.
+Maar de kaarten zijn van groter belang: bijvoorbeeld bij bouwwerkzaamheden en archeologische opgravingen zijn historische kaarten erg belangrijk en ook worden de kaarten gebruikt om databases van historische straatnamen en huisnummers samen te stellen.
 
 Op de kaart hieronder kun je kaarten uit verschillende jaargangen vergelijken, en zien hoe Amsterdam veranderde tussen 1909 en 1985.
 
@@ -99,6 +99,14 @@ map.setView([52.4158, 4.9768], 10)
 [Op GitHub](https://github.com/Amsterdam/explore-historical-maps) staan een aantal voorbeeldprojecten waarin de Publieke Werken-kaarten met Leaflet worden getoond.
 
 ## Schaal, kleur, jaargangen, projecties & bladnummers
+
+waarom is de 1:2500 kaart zo mooi? gemaakt door ambtenaren in de oorlog die wilde nlaten blijken dat ze onmismaar waren om zo niet tewerk te wordne gesteld
+
+en ook dus de https://www.verzetsmuseum.org/museum/nl/kinderen/over-de-oorlog/digitale_expo/topstukken/topstukken,stippenkaart
+
+...
+
+https://geheugenvanoost.amsterdam/page/22578/gestencilde-brochure-van-het-agwo
 
 <!--
 
