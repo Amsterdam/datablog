@@ -4,6 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  {% comment %} TODO: https://stackoverflow.com/questions/25100917/showing-thumbnail-for-link-in-whatsapp-ogimage-meta-tag-doesnt-work {% endcomment %}
+
   {% capture title %}{% if page.title %}{{ page.title }} -{% else %}{% endif %} {{ site.t[page.lang].title }} - {{ site.t[page.lang].organization | strip_html }}{% endcapture %}
   <title>{{ title }}</title>
   <meta property="og:title" content="{{ title }}"/>
