@@ -1,17 +1,17 @@
 ---
-title: Historische Kaarten in het Dataportaal
+title: Historische Kaarten op data.amsterdam.nl
 lang: nl
 ref: historical-maps
 author: bert
 ---
 
-100 jaar cartografische geschiedenis is vanaf nu te bekijken op [data.amsterdam.nl](https://data.amsterdam.nl). De kaarten, gemaakt tussen 1909 en 1985 door de gemeentelijke Dienst der Publieke Werken, laten de groei van Amsterdam in de twintigste eeuw prachtig zien.
+Honderd jaar cartografische geschiedenis is vanaf nu te bekijken op [data.amsterdam.nl](https://data.amsterdam.nl). De kaarten, tussen 1909 en 1985 gemaakt door de gemeentelijke Dienst der Publieke Werken, laten prachtig zien hoe Amsterdam in de twintigste eeuw groeit en verandert.
 
-In 1909 was Amsterdam een stuk kleiner dan nu: ten westen van het Vondelpark, ten zuiden van de Pijp en ten oosten van de Dapperbuurt hield de stad op. Daarbuiten lagen polders met boerderijen. Ook het gebied aan de overkant van het IJ was grotendeels nog leeg, op een paar fabrieken en scheepswerven en de dijkdorpen Buiksloot en Nieuwendam na.
+In 1909 was Amsterdam een stuk kleiner dan nu: ten westen van het Vondelpark, ten zuiden van de Pijp en ten oosten van de Dapperbuurt hield de stad op. Daarbuiten lagen polders met boerderijen. Ook het gebied aan de overkant van het IJ was grotendeels nog leeg, op een paar fabrieken, scheepswerven en de dijkdorpen Buiksloot en Nieuwendam na.
 
 75 jaar later, in 1985, had de stad bijna dezelfde omvang als vandaag, alhoewel Amsterdam toen maar 100.000 inwoners meer had dan in 1909. Na jaren van groei daalde het inwonertal vanaf eind jaren zestig en bereikte in 1984 het laagste punt. Inwoners vertrokken naar plaatsen zoals Purmerend, Hoofddorp en Almere, en veel industrie en bedrijvigheid verliet de stad. De fabrieken, havens, pakhuizen en rangeerterreinen die achterbleven zouden pas jaren later worden gerenoveerd of gesloopt.
 
-In dezelfde periode, tussen 1909 en 1985, produceerde de gemeentelijke Dienst der Publieke Werken (in 1980 hernoemd tot de Dienst Openbare Werken) een collectie gedetailleerde topografische kaarten van de stad, waarvan de kaartbladen bij elke stadsvernieuwing en -uitbreiding herzien werden. Het Amsterdamse Stadsarchief heeft een groot gedeelte van deze kaarten gedigitaliseerd, ze zijn te bekijken en downloaden via de [Beeldbank van het Stadsarchief](https://beeldbank.amsterdam.nl/beeldbank/indeling/grid?q_searchfield=publieke+werken&f_sk_documenttype%5B0%5D=kaart). (Vóór 1909 werden er door de gemeente ook kaarten gemaakt, maar pas vanaf 1909 gebeurde dit voor de hele stad en volgens een vast stramien. Na 1985 werden de kaarten alleen nog digitaal uitgegeven.)
+In dezelfde periode, tussen 1909 en 1985, produceerde de gemeentelijke Dienst der Publieke Werken (in 1980 hernoemd tot de Dienst Openbare Werken) een collectie gedetailleerde topografische kaarten van de stad, waarvan de kaartbladen bij elke stadsvernieuwing en -uitbreiding herzien werden. Het Amsterdamse Stadsarchief heeft een groot gedeelte van deze kaarten gedigitaliseerd, ze zijn te bekijken en downloaden via de [Beeldbank van het Stadsarchief](https://beeldbank.amsterdam.nl/beeldbank/indeling/grid?q_searchfield=publieke+werken&f_sk_documenttype%5B0%5D=kaart). (Vóór 1909 werden er door de gemeente ook kaarten gemaakt, maar pas vanaf 1909 gebeurde dit voor de hele stad volgens een vast stramien. Na 1985 werden de kaarten alleen nog digitaal uitgegeven.)
 
 {% include full-width-start.liquid %}
 {% include figure.liquid
@@ -27,11 +27,11 @@ In dezelfde periode, tussen 1909 en 1985, produceerde de gemeentelijke Dienst de
   src="betondorp.jpg" %}
 {% include float-end.liquid %} -->
 
-De kaarten van de Dienst der Publieke Werken geven prachtig weer hoe Amsterdam in de twintigste eeuw groeide en veranderde, maar via het Stadsarchief zijn alleen de losse kaartbladen te raadplegen. Om van de losse kaartbladen een digitale historische atlas van Amsterdam te maken moeten de kaarten allereerst worden _gegeorefereerd_. Georefereren is het zó draaien, uitrekken en soms vervormen van scans van kaartmateriaal zodat ze precies passend op bijvoorbeeld Google Maps gelegd kunnen worden. Als daarna de kaarten worden uitgeknipt zodat de lege randen wegvallen kunnen de kaartbladen vervolgens met geografische software tot één kaart worden samengevoegd. Het georefereren en uitknippen van kaarten is tijdrovend precisiewerk, maar gelukkig heeft [Jan Hartmann](https://www.uva.nl/profiel/h/a/j.l.h.hartmann/j.l.h.hartmann.html) van de Universiteit van Amsterdam een aantal jaar geleden een groot gedeelte van dit werk al gedaan. Op de website van de [Amsterdam Time Machine](https://tiles.amsterdamtimemachine.nl) zijn enkele van door Jan Hartmann gegeorefereerde kaartlagen te bekijken.
+Alhoewel de losse kaartbladen in hoge resolutie te bekijken en downloaden zijn, is het in de Beeldbank niet mogelijk om de kaarten geografisch te doorzoeken en om alle kaartbladen uit één periode samen te voegen tot één kaartbeeld. Om van de losse kaartbladen een digitale historische atlas van Amsterdam te maken moeten de kaarten allereerst worden _gegeorefereerd_. Georefereren is het zó draaien, uitrekken en soms vervormen van scans van kaartmateriaal zodat ze precies passend op bijvoorbeeld Google Maps gelegd kunnen worden. Als daarna de kaarten worden uitgeknipt zodat de lege randen wegvallen kunnen de kaartbladen vervolgens met geografische software tot één kaart worden samengevoegd. Het georefereren en uitknippen van kaarten is tijdrovend precisiewerk, maar gelukkig heeft [Jan Hartmann](https://www.uva.nl/profiel/h/a/j.l.h.hartmann/j.l.h.hartmann.html) van de Universiteit van Amsterdam een aantal jaar geleden een groot gedeelte van dit werk al gedaan. Op de website van de [Amsterdam Time Machine](https://tiles.amsterdamtimemachine.nl) zijn enkele van door Jan Hartmann gegeorefereerde kaartlagen te bekijken.
 
 Om de kaarten geschikt te maken voor het dataportaal heb ik scripts en databestanden van Jan Hartmann – met zijn hulp – verbeterd en aangevuld. Ook heb ik een aantal onnauwkeurigheden gerepareerd en ontbrekende kaartbladen toegevoegd.
 
-__Een selectie van de kaarten van de Dienst der Publieke Werken zijn vanaf nu beschikbaar via [het Dataportaal van de Gemeente Amsterdam](https://data.amsterdam.nl/data/?modus=kaart&center=52.3812567%2C4.8965655&lagen=pw1943%3A1&legenda=true)!__
+__Een selectie van de kaarten van de Dienst der Publieke Werken zijn vanaf nu beschikbaar op [data.amsterdam.nl](https://data.amsterdam.nl/data/?modus=kaart&center=52.3812567%2C4.8965655&lagen=pw1943%3A1&legenda=true)!__
 
 {% include figure.liquid
   caption="<a href=\"https://data.amsterdam.nl/data/monumenten/monumenten/id8ce679b8-86b4-4331-bb79-bdc6d340d01d/?modus=kaart&center=52.3681675%2C4.9373697&lagen=pw1909%3A1%7Ctcmnmt%3A1&legenda=true&zoom=13\">Gemeente- en rijksmonumenten op het voormalige veemarktterrein</a>."
@@ -46,35 +46,32 @@ Door kaarten uit verschillende jaren over elkaar heen te leggen en te vergelijke
 
 Maar de kaarten zijn van groter belang: bijvoorbeeld bij bouwwerkzaamheden en archeologische opgravingen zijn historische kaarten erg belangrijk en ook worden de kaarten gebruikt om databases van historische straatnamen en huisnummers samen te stellen.
 
-Op de kaart hieronder kun je kaarten uit verschillende jaargangen vergelijken, en zien hoe Amsterdam veranderde tussen 1909 en 1985.
+Op de kaart hieronder kun je kaarten uit verschillende jaargangen vergelijken, en zien hoe Amsterdam veranderde tussen 1909 en 1985:
 
 {% include full-width-start.liquid %}
 {% include iframe.liquid src="https://amsterdam.github.io/explore-historical-maps/#13/52.3717/4.9344" class="vh-100" %}
 {% include full-width-end.liquid %}
 
-## Eigen gebruik van de kaartlagen
+## De kaartlagen zelf gebruiken
 
-De gegeorefereerde kaarten zijn als _tiles_ beschikbaar volgens de [_Tile Map Service_-specificatie](https://en.wikipedia.org/wiki/Tile_Map_Service) (TMS). De meeste geografische software kan met deze standaard overweg. In bijvoorbeeld QGIS of Leaflet is het heel eenvoudig om de kaartlagen te gebruiken, ik leg hieronder uit hoe dat werkt.
+De gegeorefereerde kaarten zijn als _tiles_ beschikbaar volgens de [_Tile Map Service_-specificatie](https://en.wikipedia.org/wiki/Tile_Map_Service) (TMS). De meeste geografische software kan met deze standaard overweg. In bijvoorbeeld [Leaflet](https://leafletjs.com/) en [OpenLayers](https://openlayers.org/) is het eenvoudig om de kaartlagen te gebruiken, ik leg hieronder uit hoe dat werkt.
 
-De volgende kaartlagen zijn beschikbaar:
+Momenteel zijn de volgende kaartlagen beschikbaar:
 
-| Jaar | Schaal | ID                          |
-|:-----|:-------|:----------------------------|
-| 1909 | 1:1000 | `publieke-werken-1909`      |
-| 1943 | 1:1000 | `publieke-werken-1943`      |
-| 1943 | 1:2500 | `publieke-werken-1943-2500` |
-| 1985 | 1:1000 | `publieke-werken-1985`      |
+| Jaar | Schaal | Projectie  | ID                             |
+|:-----|:-------|:-----------|:-------------------------------|
+| 1909 | 1:1000 | EPSG:28992 | `publieke-werken-1909-rd`      |
+| 1943 | 1:1000 | EPSG:28992 | `publieke-werken-1943-rd`      |
+| 1943 | 1:2500 | EPSG:28992 | `publieke-werken-1943-2500-rd` |
+| 1985 | 1:1000 | EPSG:28992 | `publieke-werken-1985-rd`      |
 
-Van een kaartlaag-ID kun je op de volgende manier een tile-URL maken: `https://{s}.data.amsterdam.nl/publieke-werken-1909/{z}/{x}/{y}.png`. Deze URL’s zijn niet direct in de browser te openen (ze bevatten _template strings_ zoals bijvoorbeeld `{x}`), maar QGIS en Leaflet kunnen ermee overweg! Op [GitHub](http://github.com/Amsterdam/historical-maps) staan alle tile-URL’s handig op een rijtje.
+**Belangrijk: in de kaartapplicatie op data.amsterdam.nl gebruiken we [Rijksdriehoekscoördinaten](https://nl.wikipedia.org/wiki/Rijksdriehoeksco%C3%B6rdinaten), terwijl de meeste software kaart-tiles in de Web Mercator-projectie verwachten. Binnenkort voegen we deze ook toe!**
 
-### QGIS
+Van een kaartlaag-ID kun je op de volgende manier een tile-URL maken:
 
-In QGIS 3.0 en hoger kun je de kaartlagen gebruikeen voor in het _Browser_-paneel, rechts te klikken op _XYZ Tiles_ en voor _New Connection…_ te kiezen. Geef de kaart een naam, kies één van de URL's uit het lijstje hierboven, en klik op _OK_. Op het blog [Spatial Bias]((https://www.spatialbias.com/2018/02/qgis-3.0-xyz-tile-layers/)) worden alle stappen gedetailleerd beschreven.
+`https://{s}.data.amsterdam.nl/publieke-werken-1909-rd/{z}/{x}/{y}.png`.
 
-{% include figure.liquid
-  caption="<a href=\"https://www.spatialbias.com/2018/02/qgis-3.0-xyz-tile-layers/\">Een <em>XYZ Tile Layer</em> toevoegen met QGIS</a>."
-  alt="Een XYZ Tile Layer toevoegen met QGIS"
-  src="qgis-xyz.jpg" %}
+Deze URL’s zijn niet direct in de browser te openen (ze bevatten _template strings_ zoals bijvoorbeeld `{x}`), maar QGIS en Leaflet kunnen ermee overweg! Op [GitHub](http://github.com/Amsterdam/historical-maps) staan alle tile-URL’s handig op een rijtje.
 
 ### Leaflet
 
@@ -83,7 +80,7 @@ In [Leaflet](https://leafletjs.com/), een populaire viewer voor webkaarten, kan 
 ```js
 var map = new L.Map('map')
 
-var id = 'publieke-werken-1943'
+var id = 'publieke-werken-1943-rd'
 var tileUrl = 'https://{s}.data.amsterdam.nl/' + id + '/{z}/{x}/{y}.png'
 
 var tileLayer = L.tileLayer(tileUrl, {
@@ -96,41 +93,39 @@ var tileLayer = L.tileLayer(tileUrl, {
 map.setView([52.4158, 4.9768], 10)
 ```
 
-[Op GitHub](https://github.com/Amsterdam/explore-historical-maps) staan een aantal voorbeeldprojecten waarin de Publieke Werken-kaarten met Leaflet worden getoond.
+[Op GitHub](https://github.com/Amsterdam/explore-historical-maps/viewer) staan een aantal voorbeeldprojecten die laten zien hoe je de Publieke Werken-kaarten met Leaflet kunt gebruiken.
+
+<!-- ### OpenLayers -->
+
+<!-- ### QGIS
+
+In QGIS 3.0 en hoger kun je de kaartlagen gebruiken door in het _Browser_-paneel rechts te klikken op _XYZ Tiles_ en voor _New Connection…_ te kiezen. Geef de kaart een naam, kies één van de URL’s uit het lijstje hierboven, en klik op _OK_. Op het blog [Spatial Bias]((https://www.spatialbias.com/2018/02/qgis-3.0-xyz-tile-layers/)) worden alle stappen gedetailleerd beschreven.
+
+{% include figure.liquid
+  caption="<a href=\"https://www.spatialbias.com/2018/02/qgis-3.0-xyz-tile-layers/\">Een <em>XYZ Tile Layer</em> toevoegen met QGIS</a>."
+  alt="Een XYZ Tile Layer toevoegen met QGIS"
+  src="qgis-xyz.jpg" %} -->
 
 ## Schaal, kleur, jaargangen, projecties & bladnummers
 
-waarom is de 1:2500 kaart zo mooi? gemaakt door ambtenaren in de oorlog die wilde nlaten blijken dat ze onmismaar waren om zo niet tewerk te wordne gesteld
+De Dienst der Publieke Werken gaf kaarten uit voor verschillende doeleinden en in verschillende schalen. De 1:1000-kaarten zijn het meest gedetailleerd; elk individueel adres, gebouw, huisnummer, putdeksel en lantaarnpaal is zichtbaar. Deze kaartbladen, die steeds een stuk stad van 950 bij 750 meter laten zien, vertegenwoordigen het grootste gedeelte van de gedigitaliseerde kaarten in de Beeldbank en zijn door het grootschalige detailniveau het meest bruikbaar.
 
-en ook dus de https://www.verzetsmuseum.org/museum/nl/kinderen/over-de-oorlog/digitale_expo/topstukken/topstukken,stippenkaart
+- 1:1000
+- 1:2500
+- 1:5000
+- 1:10.000
 
-...
+Op data.amsterdam.nl, allen geselecteerd en gegeorefereerd door Jan Hartmann:
 
-https://geheugenvanoost.amsterdam/page/22578/gestencilde-brochure-van-het-agwo
-
-<!--
+- 1909
+- 1943: Rond 1940 werd de hele serie opnieuw getekend,
+- 1985
 
 {% include figure.liquid
-  caption="Bladwijzer van 1:1000 kaarten uit 1909"
+  caption="Bladwijzer van 1:1000-kaarten uit 1909, waarop duidelijk te zien is dat de oriëntatie van de kaartbladen een beetje gedraaid is ten opzichte van het noorden."
   alt="Bladwijzer"
-  src="bladwijzer-1909.jpg" %} -->
-
-
-
-
-<!--
-- 1:1000-kaarten, elk adres en gebouw, huisnummers, stoepen
-- 1:2500 bouwblokken, soms in kleur
-- 1:5000
-
-950 bij 750 meter
-
-- Projectie: RD & Web Mercator
-
-- link naar Observable
--->
+  src="bladwijzer-1909.jpg" %}
 
 {% include full-width-start.liquid %}
 {% include iframe.liquid src="https://amsterdam.github.io/explore-historical-maps/2500.html#13/52.3628/4.8832" class="vh-75" %}
 {% include full-width-end.liquid %}
-
