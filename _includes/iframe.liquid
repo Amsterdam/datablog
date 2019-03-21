@@ -1,1 +1,8 @@
-<iframe class="w-100 vh-75 bn {{ include.class }}" src="{{ include.src }}"></iframe>
+<figure class="ma0">
+  <iframe class="w-100 vh-75 bn {{ include.class }}" src="{{ include.src }}"></iframe>
+  {% if include.caption %}
+  <figcaption class="tc i mv2">
+    {{ include.caption }}
+  </figcaption>
+  {% endif %}
+</figure>
