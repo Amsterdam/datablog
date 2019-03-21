@@ -5,8 +5,7 @@ ref: panorama
 author: bert
 ---
 
-BAS KUN JE ME HIER NOG EVEN HELPEN?! Ik ben te moe, ik kan niets leuks meer verzinnen...
-Hier misschien een intro die wat minder feitelijk is? Een bekende truc is om te beginnen met een of meer vragen: Wat ligt er recht tegenover adres ..., Hoeveel deurbellen kent adres ..., Wat hangt er voor poster op het raam van adres ...? De antwoorden vind je op data.amsterdam.nl, waar je vanaf bijna ieder punt in de stad 360 graden in het rond kunt kijken
+Welke [trotse vogel op de Hoogte Kadijk](https://data.amsterdam.nl/data/panorama/TMX7316010203-000719_pano_0000_001659/?modus=volledig&center=52.3688592%2C4.9167371&heading=-21.465765996101748&lagen=pano%3A1&locatie=52.3688591932923%2C4.91673710537651&pitch=-14.925156155458305) herinnert aan een roemruchte brouwerij die daar ooit stond? Wat staat er in [de letterbak op de gevel van de Dubbeltjespanden](https://data.amsterdam.nl/data/panorama/TMX7316010203-000744_pano_0000_000011/?center=52.3618283%2C4.9171022&heading=-165&locatie=52.3618282840258%2C4.91710223576424&modus=volledig) aan de Mauritskade? [Wie houdt braaf de wacht](https://data.amsterdam.nl/data/panorama/TMX7316010203-000786_pano_0001_000001/?modus=volledig&center=52.3510725%2C4.8499076&detail-ref=0363300000003585%2Cbag%2Copenbareruimte&heading=-17.922882484126273&lagen=pano%3A1&locatie=52.3510724634293%2C4.8499075858745&pitch=13.062677418649113) op het Hoofddorpplein? De antwoorden vind je op data.amsterdam.nl, waar je vanaf bijna ieder punt in de stad 360 graden in het rond kunt kijken.
 
 Op [data.amsterdam.nl](https://data.amsterdam.nl/data/panorama/TMX7316060226-000012_pano_0000_004024/?heading=-139&pitch=-22.8) zijn 360-gradenfoto’s van de hele gemeente Amsterdam beschikbaar (en zelfs daarbuiten). Vanaf elke weg, elk fietspad, elke gracht en elk kanaal is gefotografeerd; met je browser ben je zo in [Landelijk Noord](https://data.amsterdam.nl/data/panorama/TMX7315120208-000038_pano_0002_001693/?modus=volledig&heading=44.75&pitch=-25.48), in [het Amsterdamse Bos](https://data.amsterdam.nl/data/panorama/TMX7316010203-000115_pano_0001_001022/?modus=volledig&heading=-106), of in [de havens van Westpoort](https://data.amsterdam.nl/data/panorama/TMX7316010203-000173_pano_0003_000028/?modus=volledig&heading=177&pitch=-9) tussen de olietankers. Deze panoramafoto’s van Amsterdam en hun metadata zijn beschikbaar als open data. In deze post laten we zien hoe je deze afbeeldingen kunt gebruiken, en, leuker nog, wat je ermee kan maken!
 
@@ -191,10 +190,13 @@ Als de speler denkt te weten waar de foto genomen is kunnen we met [Turf.js](htt
 
 ## Waar ben ik?
 
-Nu moeten alles wat hierboven beschreven is samenvoegen tot een webapplicatie. Uiteraard heeft ons spel ook een goede naam nodig, maar misschien kunnen we voorlopig __Waar ben ik?__ gebruiken.
+Nu moeten alles wat hierboven beschreven is samenvoegen tot een webapplicatie. Uiteindelijk heeft ons spel ook een goede naam nodig, maar laten we voorlopig __Waar ben ik?__ als naam gebruiken. Voor wie precies wil weten hoe de applicatie, gemaakt met [Vue.js](https://vuejs.org/), in elkaar zit kan [op GitHub kijken](https://github.com/bertspaan/waar-ben-ik).
 
-Spel, gemaakt in [Vue](https://vuejs.org/). Spelen: [bertspaan.nl/waar-ben-ik](https://bertspaan.nl/waar-ben-ik). [GitHub](https://github.com/bertspaan/waar-ben-ik)!
+We hebben al genoeg technologie besproken in deze post, we kunnen 't spel beter gaan spelen: __[bertspaan.nl/waar-ben-ik](https://bertspaan.nl/waar-ben-ik)__.
 
-__Screenshot!!!__
+{% include figure.liquid
+  caption="<a href=\"https://github.com/bertspaan/waar-ben-ik\">Waar ben ik?</a>"
+  alt="Waar ben ik?"
+  src="waar-ben-ik.jpg" %}
 
-__Wie wil meehelpen om er een multiplayer-spel van te maken? Stuur een bericht op [Twitter](https://twitter.com/bertspaan)!__
+__Wie wil meehelpen om van _Waar ben ik?_ een multiplayer-spel te maken? Stuur een bericht op [Twitter](https://twitter.com/bertspaan)!__
