@@ -11,14 +11,14 @@ Op [data.amsterdam.nl](https://data.amsterdam.nl/data/panorama/TMX7316060226-000
 
 Voor de dagelijkse werkzaamheden van veel gemeentemedewerkers is het van belang om te weten hoe de stad eruit ziet. Samen met kaarten en luchtfoto’s helpen panoramafoto’s, gemaakt vanaf de straat op ooghoogte, bijvoorbeeld bij het beoordelen van vergunningsaanvragen en het herinrichten van straten en kruispunten Ze zouden daarvoor natuurlijk [Google Street View](https://www.google.com/maps/@52.3885574,4.8901644,3a,60y,185.21h,104.13t/data=!3m6!1e1!3m4!1sg8ZYRrNPP_HV-geiL-RgOg!2e0!7i13312!8i6656) kunnen gebruiken. Maar het Google-autootje komt niet in parken, op fiets- en wandelpaden, in stegen, op de grachten of in wijken in aanbouw. Bovendien bepaalt Google zélf wanneer ze ergens nieuwe foto’s maken, en mogen de foto’s niet voor andere doeleinden gebruikt worden.
 
-Sinds 2016 heeft Amsterdam een eigen panoramacamera die bovenop een auto of een schip gemonteerd kan worden. Straat voor straat en gracht voor gracht wordt de stad elk jaar opnieuw vastgelegd. Sinds 2016 zijn er meer dan 2,5 miljoen foto’s gemaakt en is meer dan 14,000 kilometer weg en kade gefotografeerd. Ook de gemeentes Weesp, Almere en Amstelveen doen mee met dit project en maken gebruik van de camera en de foto’s. Na een dag op straat of op het water worden de afbeeldingen en GPS-data uitgelezen waarna ze automatisch op data.amsterdam.nl belanden. Deze methode maakt het mogelijk snel en efficient grote stukken van de stad in één dag te fotograferen.
+Sinds 2016 heeft Amsterdam een eigen panoramacamera die bovenop een auto of een schip gemonteerd kan worden. Straat voor straat en gracht voor gracht wordt de stad elk jaar opnieuw vastgelegd. Sinds 2016 zijn er meer dan 2,5 miljoen foto’s gemaakt en is meer dan 14.000 kilometer weg en kade gefotografeerd. Ook de gemeentes Weesp, Almere en Amstelveen doen mee met dit project en maken gebruik van de camera en de foto’s. Na een dag op straat of op het water worden de afbeeldingen en GPS-data uitgelezen waarna ze automatisch op data.amsterdam.nl belanden. Deze methode maakt het mogelijk snel en efficient grote stukken van de stad in één dag te fotograferen.
 
 {% include figure.liquid
   caption="<a href=\"https://data.amsterdam.nl/data/panorama/TMX7315120208-000038_pano_0002_001691/?center=52.3927943%2C4.9932496&heading=34.45&locatie=52.3927943%2C4.9932496&pitch=-27.75&zoom=13\">Panoramafoto van de kerk van Ransdorp in data.amsterdam.nl</a>."
   alt="Panoramafoto van de kerk van Ransdorp in data.amsterdam.nl"
   src="ransdorp.jpg" %}
 
-Al voor de uitvinding van GPS en digitale fotografie was er uiteraard ook behoefte aan vergelijkbare foto’s. De gemeente New York heeft tweemaal, eind jaren 30 en halverwege de jaren 80, fotografen op pad gestuurd om elk gebouw en perceel te laten fotograferen. Deze foto’s zijn onlangs gedigitaliseerd en online te bekijken. Zie bijvoorbeeld [Every Building on Every Block: A Time Capsule of 1930s New York](https://www.nytimes.com/interactive/2018/12/28/nyregion/nyc-property-tax-photos.html) en [80s.NYC](http://80s.nyc/).
+Al voor de uitvinding van GPS en digitale fotografie was er uiteraard ook behoefte aan vergelijkbare foto’s. De gemeente New York heeft tweemaal, eind jaren dertig en halverwege de jaren tachtig, fotografen op pad gestuurd om elk gebouw en perceel te laten fotograferen. Deze foto’s zijn onlangs gedigitaliseerd en online te bekijken. Zie bijvoorbeeld [Every Building on Every Block: A Time Capsule of 1930s New York](https://www.nytimes.com/interactive/2018/12/28/nyregion/nyc-property-tax-photos.html) en [80s.NYC](http://80s.nyc/).
 
 {% include full-width-start.liquid %}
 {% include figure.liquid
@@ -27,7 +27,9 @@ Al voor de uitvinding van GPS en digitale fotografie was er uiteraard ook behoef
   src="zijkanaal-h.jpg" %}
 {% include full-width-end.liquid %}
 
-Terug naar Amsterdam: we tonen inmiddels een panoramafoto bij elke selectie en zoekopdracht in het dataportaal. Maar omdat de foto’s beschikbaar zijn als open data kunnen we er veel meer mee doen! Zo testen we bijvoorbeeld software om automatisch verkeersborden en andere objecten in de openbare ruimte op de foto’s te herkennen. Maar het leukste is misschien wel om de foto’s te gebruiken om Amsterdam te ontdekken en op plekken te komen waar je anders niet snel komt. Als je maar lang genoeg met Google Street View de wereld over reist kom je de gekste dingen tegen, zoals arrestaties, ongelukken en ontsnapte dieren. Dit soort Street View-reisreportages zijn populair, zie bijvoorbeeld [9-Eyes](http://9-eyes.com/) en [A Series of Unfortunate Events](http://photomichaelwolf.com/#asoue/1). Ook erg leuk is GeoGuessr, een website die je op een willekeurige plek in de wereld dropt. Aan de hand van het straatbeeld moet je raden waar je bent. Hoe dichterbij, hoe beter. Als je geluk hebt zie je verkeersborden maar soms ben je aangewezen op de vegetatie of bouwstijl van huizen.
+Terug naar Amsterdam: we tonen inmiddels een panoramafoto bij elke selectie en zoekopdracht in het dataportaal. Maar omdat de foto’s beschikbaar zijn als open data kunnen we er veel meer mee doen. Zo testen we bijvoorbeeld software om automatisch verkeersborden en andere objecten in de openbare ruimte op de foto’s te herkennen. Maar het leukste is misschien wel om de foto’s te gebruiken om Amsterdam te ontdekken en op plekken te komen waar je anders niet snel komt.
+
+Als je maar lang genoeg met Google Street View de wereld over reist kom je de gekste dingen tegen, zoals arrestaties, ongelukken en ontsnapte dieren. Dit soort Street View-reisreportages zijn populair, zie bijvoorbeeld [9-Eyes](http://9-eyes.com/) en [A Series of Unfortunate Events](http://photomichaelwolf.com/#asoue/1). Ook erg leuk is GeoGuessr, een website die je op een willekeurige plek in de wereld dropt. Aan de hand van het straatbeeld moet je raden waar je bent. Hoe dichterbij, hoe beter. Als je geluk hebt zie je verkeersborden maar soms ben je aangewezen op de vegetatie of bouwstijl van huizen.
 
 __In deze post gaan we een Amsterdamse versie van GeoGuessr maken, zonder Google, maar met open source-tools en Amsterdamse open data!__
 
@@ -49,7 +51,7 @@ Aan de slag! Met de webservices van data.amsterdam.nl en wat kennis van webtechn
 
 ## De panoramafoto van een willekeurige plek in Amsterdam
 
-De eerste stap is gelijk de moeilijkste. De panoramafoto’s kunnen worden gezocht en benaderd via de REST API op [api.data.amsterdam.nl/panorama](https://api.data.amsterdam.nl/panorama). Met deze API is het ook mogelijk om de foto te vinden die het dichtst bij een bepaalde geografische locatie ligt. In het voorbeeld hieronder zie je doe dit gaat met JavaScript en [axios](https://github.com/axios/axios), maar het kan uiteraard met elke willekeurige programmeertaal:
+De eerste stap is gelijk de moeilijkste. De panoramafoto’s kunnen worden gezocht en benaderd via de REST API op [api.data.amsterdam.nl/panorama](https://api.data.amsterdam.nl/panorama). Met deze API is het ook mogelijk om de foto te vinden die het dichtst bij een bepaalde geografische locatie ligt. In het voorbeeld hieronder zie je hoe dit gaat met JavaScript en [axios](https://github.com/axios/axios), maar het kan uiteraard met elke willekeurige programmeertaal:
 
 ```js
 const lonLat = [4.96165, 52.38250]
@@ -65,13 +67,17 @@ return axios.get(url)
   })
 ```
 
-Je kunt de JSON-data die deze API-call teruggeeft ook [bekijken in de browser](https://api.data.amsterdam.nl/panorama/panoramas/?near=4.96165,52.38250&srid=4326&radius=250&page_size=1). En als je met de API wilt spelen, en de foto’s en de data direct wilt bekijken kun je dit [Observable-notebook](https://observablehq.com/@bertspaan/nearest-panorama-photo) gebruiken.
+Je kunt de JSON-data die deze API-call teruggeeft ook [bekijken in de browser](https://api.data.amsterdam.nl/panorama/panoramas/?near=4.96165,52.38250&srid=4326&radius=250&page_size=1). Als je met de API wilt spelen en de foto’s en de data direct wilt bekijken kun je ook dit [Observable-notebook](https://observablehq.com/@bertspaan/nearest-panorama-photo) gebruiken.
 
-Via de Panorama-API is het mogelijk om een foto te zoeken in de buurt van een locatie. Echter, het kiezen van een willekeurige locatie in de gemeente Amsterdam is niet zo eenvoudig. De meest simpele oplossing is om steeds een punt te kiezen in de rechthoek waar de [gemeentegrenzen van Amsterdam](https://maps.amsterdam.nl/gebiedsindeling/) precies inpassen, grofweg tussen Uitdam, Nederhorst den Berg, Hoofddorp en Assendelft. Omdat dit gebied veel groter is dan de gemeente zelf, zul je relatief vaak een punt kiezen wat ver buiten de stad ligt. De foto hier het dichtst bij is er dan een van de rand van de stad. Deze methode zal er dus voor zorgen dat je steeds aan de rand van de stad wordt neergezet, middenin het groen. Ook als we de precieze omtrek van de gemeente gebruiken om een willekeurig punt te kizen hebben we hetzelfde probleem: er zijn niet overal panoramafoto’s gemaakt, en ook dan zullen de lege gebieden ons te vaak op een afgelegen plek afzetten. We zouden ook een kleine zoekradius kunnen gebruiken, en de zoekopdracht kunnen blijven herhalen tot een foto gevonden is, maar dat is helemaal een onaantrekkelijke oplossing.
+Via de Panorama-API is het mogelijk om een foto te zoeken in de buurt van een locatie. Echter, het kiezen van een willekeurige locatie in de gemeente Amsterdam is niet zo eenvoudig. De meest simpele oplossing is om steeds een punt te kiezen in de rechthoek waar de [gemeentegrenzen van Amsterdam](https://maps.amsterdam.nl/gebiedsindeling/) precies inpassen, grofweg tussen Uitdam, Nederhorst den Berg, Hoofddorp en Assendelft.
+
+Omdat dit gebied veel groter is dan de gemeente zelf, zul je relatief vaak een punt kiezen wat ver buiten de stad ligt. De foto hier het dichtst bij is er dan een van de rand van de stad. Deze methode zal er dus voor zorgen dat je steeds aan de rand van de stad wordt neergezet, middenin het groen.
+
+Ook als we de precieze omtrek van de gemeente gebruiken om een willekeurig punt te kiezen hebben we hetzelfde probleem: er zijn niet overal panoramafoto’s gemaakt, en ook dan zullen de lege gebieden ons te vaak op een afgelegen plek afzetten. We zouden ook een kleine zoekradius kunnen gebruiken, en de zoekopdracht kunnen blijven herhalen tot een foto gevonden is, maar dat is helemaal een onaantrekkelijke oplossing.
 
 Alleen door alle routes te bekijken waarlangs foto’s genomen zijn, en een willekeurig punt te kiezen langs een van deze routes, kunnen we op de correcte manier een willekeurige panoramafoto kiezen. Deze methode levert bovendien ook een mooie datavisualisatie van alle gefotografeerde routes op!
 
-Via de Panorama-API of via de [WFS-server](https://map.data.amsterdam.nl/maps/panorama?REQUEST=GetCapabilities&SERVICE=wfs) kunnen we alle opnamelocaties downloaden. Aan de hand van het ID en het tijdstip van een foto is af te leiden welke foto’s bij elkaar horen en achter elkaar genomen zijn. Voor deze post hebben we speciaal een dataset gemaakt van alle routes. [Deze dataset staat op GitHub](https://github.com/Amsterdam/panorama-visualization) en bevat GeoJSON-bestanden en _vector tiles_.
+Via de Panorama-API of via de [WFS-server](https://map.data.amsterdam.nl/maps/panorama?REQUEST=GetCapabilities&SERVICE=wfs) kunnen we alle opnamelocaties downloaden. Aan de hand van het ID en het tijdstip van een foto is af te leiden welke foto’s bij elkaar horen en achter elkaar genomen zijn. Voor deze post hebben we speciaal een dataset gemaakt van alle routes. Deze dataset staat [op GitHub](https://github.com/Amsterdam/panorama-visualization) en bevat GeoJSON-bestanden en _vector tiles_.
 
 {% include full-width-start.liquid %}
 {% include iframe.liquid
@@ -79,7 +85,7 @@ Via de Panorama-API of via de [WFS-server](https://map.data.amsterdam.nl/maps/pa
   caption="Visualisatie van alle routes waarlangs panoramafoto’s genomen zijn." %}
 {% include full-width-end.liquid %}
 
-Vervolgens kunnen we deze routes openen met [QGIS](https://qgis.org/), van de lijnen polygonen maken, deze polygonen samenvoegen, en het stuk dat niet binnen de gemeente Amsterdam valt verwijderen. Met QGIS kan dit op de volgende manier:
+Vervolgens kunnen we deze routes openen met [QGIS](https://qgis.org/), van de lijnen polygonen maken, deze polygonen samenvoegen en het stuk dat niet binnen de gemeente Amsterdam valt verwijderen. Met QGIS kan dit op de volgende manier:
 
 1. Download `sequences.geojson` van [GitHub](https://github.com/Amsterdam/panorama-visualization)), en open dit bestand met QGIS;
 2. Kies _Vector_ ⟶ _Geoprocessing Tools_ ⟶ _Buffer…_ om een rand van een aantal meter dik om de lijnen te genereren en er zo polygonen van te maken. Hoe dikker deze rand, hoe vaker we in gebieden terecht zullen komen waar geen foto’s gemaakt zijn. Als de rand te dun is worden routes waar meerdere keren foto’s zijn genomen maar niet precies op elkaar liggen niet samengevoegd, en zullen straten die vaker gefotografeerd zijn vaker worden gekozen. In dit voorbeeld hebben we voor een afstand van 200 meter gekozen. __Belangrijk: de bewerkingen kunnen het beste worden uitgevoerd in EPSG:28992 (ofwel Rijksdriehoekscoördinaten), alle afstanden zijn dan in meters.__
@@ -105,7 +111,7 @@ Het opdelen van polygonen in driehoeken kan op veel manieren. Het kan in de brow
 2. Daarna kan van deze punten een [Delaunay-triangulatie](https://nl.wikipedia.org/wiki/Delaunay-triangulatie) worden berekend: _Vector_ ⟶ _Geometry Tools_ ⟶ _Delaunau Triangulation…_
 3. Als laatste gebruiken we weer een _Intersection_ om de gaten uit de triangulatie te knippen.
 
-Het resultaat kunnen we nu exporteren als GeoJSON, en gebruiken in de webapplicatie. Kies altijd de projectie EPSG:4326 als je GEOJSON-bestanden exporteert voor gebruik op het web!
+Het resultaat kunnen we nu exporteren als GeoJSON, en gebruiken in de webapplicatie. Kies altijd de projectie EPSG:4326 als je GeoJSON-bestanden exporteert voor gebruik op het web!
 
 ## Marzipano, Leaflet en Turf.js
 
