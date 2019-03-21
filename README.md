@@ -1,6 +1,6 @@
 # Amsterdam Datablog
 
-Work in progress. First blog post will be published in a few weeks.
+See https://amsterdam.github.io/datablog.
 
 ## Images
 
