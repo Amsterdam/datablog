@@ -77,7 +77,7 @@ Ook als we de precieze omtrek van de gemeente gebruiken om een willekeurig punt 
 
 Alleen door alle routes te bekijken waarlangs foto’s genomen zijn, en een willekeurig punt te kiezen langs een van deze routes, kunnen we op de correcte manier een willekeurige panoramafoto kiezen. Deze methode levert bovendien ook een mooie datavisualisatie van alle gefotografeerde routes op!
 
-Via de Panorama-API of via de [WFS-server](https://map.data.amsterdam.nl/maps/panorama?REQUEST=GetCapabilities&SERVICE=wfs) kunnen we alle opnamelocaties downloaden. Aan de hand van het ID en het tijdstip van een foto is af te leiden welke foto’s bij elkaar horen en achter elkaar genomen zijn. Voor deze post hebben we speciaal een dataset gemaakt van alle routes. Deze dataset staat [op GitHub](https://github.com/Amsterdam/panorama-visualization) en bevat GeoJSON-bestanden en _vector tiles_.
+Via de Panorama-API of via de [WFS-server](https://map.data.amsterdam.nl/maps/panorama?REQUEST=GetCapabilities&SERVICE=wfs) kunnen we alle opnamelocaties downloaden. Aan de hand van het ID en het tijdstip van een foto is af te leiden welke foto’s bij elkaar horen en achter elkaar genomen zijn. Voor deze post hebben we speciaal een dataset gemaakt van alle routes. Deze dataset staat [op GitHub](https://github.com/Amsterdam/panorama-visualization-data) en bevat GeoJSON-bestanden en _vector tiles_.
 
 {% include full-width-start.liquid %}
 {% include iframe.liquid
@@ -87,7 +87,7 @@ Via de Panorama-API of via de [WFS-server](https://map.data.amsterdam.nl/maps/pa
 
 Vervolgens kunnen we deze routes openen met [QGIS](https://qgis.org/), van de lijnen polygonen maken, deze polygonen samenvoegen en het stuk dat niet binnen de gemeente Amsterdam valt verwijderen. Met QGIS kan dit op de volgende manier:
 
-1. Download `sequences.geojson` van [GitHub](https://github.com/Amsterdam/panorama-visualization)), en open dit bestand met QGIS;
+1. Download `sequences.geojson` van [GitHub](https://github.com/Amsterdam/panorama-visualization-data)), en open dit bestand met QGIS;
 2. Kies _Vector_ ⟶ _Geoprocessing Tools_ ⟶ _Buffer…_ om een rand van een aantal meter dik om de lijnen te genereren en er zo polygonen van te maken. Hoe dikker deze rand, hoe vaker we in gebieden terecht zullen komen waar geen foto’s gemaakt zijn. Als de rand te dun is worden routes waar meerdere keren foto’s zijn genomen maar niet precies op elkaar liggen niet samengevoegd, en zullen straten die vaker gefotografeerd zijn vaker worden gekozen. In dit voorbeeld hebben we voor een afstand van 200 meter gekozen. __Belangrijk: de bewerkingen kunnen het beste worden uitgevoerd in EPSG:28992 (ofwel Rijksdriehoekscoördinaten), alle afstanden zijn dan in meters.__
 3. Kies vervolgens _Vector_ ⟶ _Geoprocessing Tools_ ⟶ _Dissolve…_ om de losse polygonen samen te voegen tot één vorm.
 4. Open `gemeente-amsterdam.geojson` (wederom te vinden in het GitHub-project), met _Vector_ ⟶ _Geoprocessing Tools_ ⟶ _Intersection…_ kunnen we het stuk van de samengevoegde polygonen die buiten Amsterdam liggen verwijderen.
