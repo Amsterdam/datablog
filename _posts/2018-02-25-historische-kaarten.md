@@ -60,7 +60,7 @@ Jan Hartmann heeft vier selecties gemaakt uit de beschikbare kaarten, deze zijn 
 
 - __1909 (1:1000)__: In 1909 maakte de Dienst der Publieke Werken de eerste serie 1:1000-kaarten. Deze gebruiken nog een eigen Amsterdamse projectie, waardoor de kaartbladen niet precies het noorden boven hebben (dit is goed te zien op het indexblad hieronder). Alleen wanneer de stad veranderde en er nieuwe wijken werden gebouwd gaf de Dienst nieuwe kaartbladen uit, en sommige van de allereerste kaartbladen ontbreken in de collectie van het Stadsarchief. Niet alle kaarten Jan Hartmanns selectie zijn daardoor precies uit 1909. Sommige zijn een paar jaar jonger (en er zitten zelfs kaartbladen uit 1923 tussen).
 - __1943 (1:1000 en 1:2500)__: Rond 1940 werd de hele kaartenserie opnieuw getekend, ditmaal wél met het noorden precies naar boven. Bovendien werd er ook een prachtige 1:2500-kaart gemaakt, in kleur. Deze is helemaal onderaan deze pagina te bekijken. Voor deze twee series geldt ook dat niet alle kaartbladen precies in 1943 zijn uitgegeven; sommige zijn iets nieuwer.
-- __1985 (1:1000)__: De laatste serie papieren kaarten werd rond 1985 uitgegeven. Inmiddels waren er meer dan 600 kaartbladen op deze schaal nodig om heel Amsterdam te beslaan. In 1909 waren dit er nog maar 150. Ook nu komen niet alle kaartbladen uit 1985, maar in dit geval zijn sommige iets ouder.
+- __1985 (1:1000)__: De laatste serie papieren kaarten werd rond 1985 uitgegeven. Inmiddels waren er meer dan 600 kaartbladen op deze schaal nodig om heel Amsterdam te beslaan. In 1909 waren dit er nog maar 150. Sommige kaartbladen in deze serie zijn een paar jaar ouder.
 
 {% include figure.liquid
   caption="Bladwijzer van 1:1000-kaarten uit 1909, waarop duidelijk te zien is dat de oriëntatie van de kaartbladen een beetje gedraaid is ten opzichte van het noorden."
@@ -157,7 +157,7 @@ map.setView([52.4158, 4.9768], 10)
 
 <!-- ### QGIS
 
-In QGIS 3.0 en hoger kun je de kaartlagen gebruiken door in het _Browser_-paneel rechts te klikken op _XYZ Tiles_ en voor _New Connection…_ te kiezen. Geef de kaart een naam, kies één van de URL’s uit het lijstje hierboven, en klik op _OK_. Op het blog [Spatial Bias]((https://www.spatialbias.com/2018/02/qgis-3.0-xyz-tile-layers/)) worden alle stappen gedetailleerd beschreven.
+In QGIS 3.0 en hoger kun je de kaartlagen gebruiken door in het _Browser_-paneel rechts te klikken op _XYZ Tiles_ en te kiezen voor _New Connection…_. Geef de kaart een naam, kies één van de URL’s uit het lijstje hierboven, en klik op _OK_. Op het blog [Spatial Bias]((https://www.spatialbias.com/2018/02/qgis-3.0-xyz-tile-layers/)) worden alle stappen gedetailleerd beschreven.
 
 {% include figure.liquid
   caption="<a href=\"https://www.spatialbias.com/2018/02/qgis-3.0-xyz-tile-layers/\">Een <em>XYZ Tile Layer</em> toevoegen met QGIS</a>."
