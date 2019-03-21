@@ -201,7 +201,7 @@ Nu moeten alles wat hierboven beschreven is samenvoegen tot een webapplicatie. U
 We hebben al genoeg technologie besproken in deze post, we kunnen 't spel beter gaan spelen: __[bertspaan.nl/waar-ben-ik](https://bertspaan.nl/waar-ben-ik)__.
 
 {% include figure.liquid
-  caption="<a href=\"https://github.com/bertspaan/waar-ben-ik\">Waar ben ik?</a>"
+  caption="<a href=\"https://bertspaan.nl/waar-ben-ik\">Waar ben ik?</a>"
   alt="Waar ben ik?"
   src="waar-ben-ik.jpg" %}
 
