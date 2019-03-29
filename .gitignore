@@ -4,3 +4,4 @@ Gemfile.lock
 .jekyll-metadata
 
 _config.dev.yml
+.vscode/*
