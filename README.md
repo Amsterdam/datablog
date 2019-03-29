@@ -19,9 +19,13 @@ To run, test and author this blog locally, first clone the source code from GitH
 
     git clone https://github.com/Amsterdam/datablog.git
 
-Then, run Jekyll:
+Install the missing gems:
 
     cd datablog
+    bundle install
+
+Then, run Jekyll:
+
     bundle exec jekyll serve --baseurl "" --livereload --incremental
 
 The blog should now be available on http://localhost:4000/.
