@@ -4,8 +4,9 @@
 $baseUrl: "https://amsterdam.github.io/stijl/dist/fonts";
 
 @font-face {
-  font-family: "Avenir LT W01 65 Medium";
-  // font-weight:
+  font-family: "Avenir Next";
+  font-weight: 500;
+  font-style: normal;
   src: url("#{$baseUrl}/AvenirMedium/212ab03d-5db2-4d6a-b94c-171cc702aa51.eot?#iefix");
   src: url("#{$baseUrl}/AvenirMedium/212ab03d-5db2-4d6a-b94c-171cc702aa51.eot?#iefix") format("eot"),
     url("#{$baseUrl}/AvenirMedium/e4d36745-a861-4a49-aa17-6510e67429d3.woff2") format("woff2"),
@@ -15,8 +16,9 @@ $baseUrl: "https://amsterdam.github.io/stijl/dist/fonts";
 }
 
 @font-face {
-  font-family: "Avenir LT W01 85 Heavy";
-  // font-weight:
+  font-family: "Avenir Next";
+  font-weight: 900;
+  font-style: normal;
   src: url("#{$baseUrl}/AvenirHeavy/f61bf0f6-c193-4100-b940-12a1a01dcee5.eot?#iefix");
   src: url("#{$baseUrl}/AvenirHeavy/f61bf0f6-c193-4100-b940-12a1a01dcee5.eot?#iefix") format("eot"),
     url("#{$baseUrl}/AvenirHeavy/65cde95a-ac33-4c65-8198-e37857968d1a.woff2") format("woff2"),
@@ -26,7 +28,9 @@ $baseUrl: "https://amsterdam.github.io/stijl/dist/fonts";
 }
 
 @font-face {
-  font-family: "AvenirNextLTW01-Regular";
+  font-family: "Avenir Next";
+  font-weight: 400;
+  font-style: normal;
   src: url("#{$baseUrl}/AvenirNext/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix");
   src: url("#{$baseUrl}/AvenirNext/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix") format("eot"),
     url("#{$baseUrl}/AvenirNext/2cd55546-ec00-4af9-aeca-4a3cd186da53.woff2") format("woff2"),
@@ -36,21 +40,13 @@ $baseUrl: "https://amsterdam.github.io/stijl/dist/fonts";
 }
 
 @font-face {
-  font-family: "Avenir Next LT W01 Demi";
+  font-family: "Avenir Next";
+  font-weight: 700;
+  font-style: normal;
   src: url("#{$baseUrl}/AvenirNextDemi/12d643f2-3899-49d5-a85b-ff430f5fad15.eot?#iefix");
   src: url("#{$baseUrl}/AvenirNextDemi/12d643f2-3899-49d5-a85b-ff430f5fad15.eot?#iefix") format("eot"),
   url("#{$baseUrl}/AvenirNextDemi/aad99a1f-7917-4dd6-bbb5-b07cedbff64f.woff2") format("woff2"),
   url("#{$baseUrl}/AvenirNextDemi/91b50bbb-9aa1-4d54-9159-ec6f19d14a7c.woff") format("woff"),
   url("#{$baseUrl}/AvenirNextDemi/a0f4c2f9-8a42-4786-ad00-fce42b57b148.ttf") format("truetype"),
   url("#{$baseUrl}/AvenirNextDemi/99affa9a-a5e9-4559-bd07-20cf0071852d.svg#99affa9a-a5e9-4559-bd07-20cf0071852d") format("svg");
-}
-
-@font-face {
-  font-family: "AvenirNextLTW01-Medium";
-  src: url("#{$baseUrl}/AvenirNextMedium/1a7c9181-cd24-4943-a9d9-d033189524e0.eot?#iefix");
-  src: url("#{$baseUrl}/AvenirNextMedium/1a7c9181-cd24-4943-a9d9-d033189524e0.eot?#iefix") format("eot"),
-    url("#{$baseUrl}/AvenirNextMedium/627fbb5a-3bae-4cd9-b617-2f923e29d55e.woff2") format("woff2"),
-    url("#{$baseUrl}/AvenirNextMedium/f26faddb-86cc-4477-a253-1e1287684336.woff") format("woff"),
-    url("#{$baseUrl}/AvenirNextMedium/63a74598-733c-4d0c-bd91-b01bffcd6e69.ttf") format("truetype"),
-    url("#{$baseUrl}/AvenirNextMedium/a89d6ad1-a04f-4a8f-b140-e55478dbea80.svg#a89d6ad1-a04f-4a8f-b140-e55478dbea80") format("svg");
 }
