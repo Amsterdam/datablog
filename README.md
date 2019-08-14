@@ -13,15 +13,19 @@ See https://amsterdam.github.io/datablog.
 
 ## Running locally
 
-The data blog is made using [Jekyll](https://jekyllrb.com/), a static site generator written in Ruby.  To install Jekyll, you can follow the [Jekyll Quickstart](https://jekyllrb.com/docs/)
+The data blog is made using [Jekyll](https://jekyllrb.com/), a static site generator written in Ruby.  To install Jekyll, you can follow the [Jekyll Installation](https://jekyllrb.com/docs/installation/macos/)
 
 To run, test and author this blog locally, first clone the source code from GitHub:
 
     git clone https://github.com/Amsterdam/datablog.git
 
-Then, run Jekyll:
+Install the missing gems:
 
     cd datablog
+    bundle install
+
+Then, run Jekyll:
+
     bundle exec jekyll serve --baseurl "" --livereload --incremental
 
 The blog should now be available on http://localhost:4000/.
