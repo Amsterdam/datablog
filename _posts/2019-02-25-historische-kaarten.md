@@ -151,7 +151,7 @@ map.setView([52.4158, 4.9768], 10)
 </script>
 ```
 
-[Op GitHub](https://github.com/Amsterdam/explore-historical-maps/viewer) staan een aantal voorbeeldprojecten die laten zien hoe je de Publieke Werken-kaarten met Leaflet kunt gebruiken. Wanneer we meer historische kaartlagen toevoegen aan het dataportaal wijden we er een nieuwe post aan op het Datablog!
+[Op GitHub](https://github.com/Amsterdam/explore-historical-maps) staan een aantal voorbeeldprojecten die laten zien hoe je de Publieke Werken-kaarten met Leaflet kunt gebruiken. Wanneer we meer historische kaartlagen toevoegen aan het dataportaal wijden we er een nieuwe post aan op het Datablog!
 
 <!-- ### OpenLayers -->
 
